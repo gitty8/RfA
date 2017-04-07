@@ -9,7 +9,7 @@ defaults[projects][subdir] = contrib
 projects[bat][type] = module
 projects[bat][download][type] = git
 projects[bat][download][url] = https://github.com/Roomify/bat_drupal.git
-projects[bat][download][tag] = 7.x-1.19
+projects[bat][download][tag] = 7.x-1.21
 projects[bat][subdir] = bat
 
 projects[bat_api][type] = module
@@ -139,7 +139,7 @@ projects[commerce_reports][version] = 4.0-beta2
 
 projects[commerce_checkout_progress][version] = 1.3
 
-projects[commerce_stripe][version] = 1.0
+projects[commerce_stripe][version] = 1.2
 
 projects[composed_field][version] = 1.0-rc1
 projects[composed_field][patch][] = https://www.drupal.org/files/issues/composed_field-check_serialized-1765888-6.patch
@@ -152,10 +152,7 @@ projects[content_menu][version] = 1.0
 
 projects[ctools][version] = 1.12
 
-; NB: the views field handlers patch is merged - shouldn't be needed as of version 2.10 of date.
-projects[date][version] = 2.9
-projects[date][patch][] = https://www.drupal.org/files/issues/date-allow_entering_of_custom_date_format_in_views_field_handlers-1504202-14.patch
-projects[date][patch][] = https://www.drupal.org/files/issues/date-fix_undefine_in_date_text_element_process-2339119-14.patch
+projects[date][version] = 2.10
 projects[date][patch][] = https://www.drupal.org/files/issues/date-input_disabled-1190830-14.patch
 
 projects[date_restrictions][type] = module
@@ -264,7 +261,7 @@ projects[google_tag][version] = 1.0
 projects[group][version] = 1.0-beta6
 projects[group][patch][] = https://www.drupal.org/files/issues/group-profile2_integration-2701803-1.patch
 
-projects[jquery_update][version] = 3.0-alpha3
+projects[jquery_update][version] = 3.0-alpha5
 
 projects[job_scheduler][type] = module
 projects[job_scheduler][download][type] = git
@@ -321,7 +318,7 @@ projects[masonry][version] = 3.0-beta1
 
 projects[masonry_views][version] = 3.0
 
-projects[media][version] = 2.0-rc12
+projects[media][version] = 2.0
 
 projects[menu_admin_per_menu][version] = 1.0
 projects[menu_admin_per_menu][patch][] = https://www.drupal.org/files/issues/integrate-menu-translation-suport-2546214-1.patch
@@ -452,13 +449,13 @@ projects[token][version] = 1.7
 
 projects[userone][version] = 1.0-beta1
 
-projects[uuid][version] = 1.0-beta1
+projects[uuid][version] = 1.0-beta2
 
 projects[variable][version] = 2.5
 
 projects[view_unpublished][version] = 1.2
 
-projects[views][version] = 3.15
+projects[views][version] = 3.16
 
 projects[views_autocomplete_filters][type] = module
 projects[views_autocomplete_filters][download][type] = git
@@ -475,7 +472,7 @@ projects[views_contextual_filters_or][download][type] = git
 projects[views_contextual_filters_or][download][url] = https://git.drupal.org/project/views_contextual_filters_or.git
 projects[views_contextual_filters_or][download][revision] = 42891a0b0057c9b71c6bf59f043cd27efd3ac43e
 
-projects[views_data_export][version] = 3.1
+projects[views_data_export][version] = 3.2
 
 projects[views_date_format_sql][version] = 3.1
 
@@ -605,14 +602,14 @@ libraries[fullcalendar][directory_name] = fullcalendar
 libraries[fullcalendar][type] = library
 libraries[fullcalendar][destination] = libraries
 libraries[fullcalendar][download][type] = get
-libraries[fullcalendar][download][url] = https://github.com/arshaw/fullcalendar/releases/download/v3.2.0/fullcalendar-3.2.0.zip
+libraries[fullcalendar][download][url] = https://github.com/arshaw/fullcalendar/releases/download/v3.3.1/fullcalendar-3.3.1.zip
 
 ; scheduler
 libraries[scheduler][directory_name] = fullcalendar-scheduler
 libraries[scheduler][type] = library
 libraries[scheduler][destination] = libraries
 libraries[scheduler][download][type] = get
-libraries[scheduler][download][url] = https://github.com/fullcalendar/fullcalendar-scheduler/releases/download/v1.5.1/fullcalendar-scheduler-1.5.1.zip
+libraries[scheduler][download][url] = https://github.com/fullcalendar/fullcalendar-scheduler/releases/download/v1.6.1/fullcalendar-scheduler-1.6.1.zip
 
 ; stripe-php
 libraries[stripe-php][download][type] = file
