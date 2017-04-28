@@ -393,7 +393,7 @@ projects[role_export][download][type] = git
 projects[role_export][download][url] = https://git.drupal.org/project/role_export.git
 projects[role_export][download][revision] = 0aef061b79a1dd0a949d504a238bf8b3f9f41b1b
 
-projects[rules][version] = 2.9
+projects[rules][version] = 2.10
 
 projects[rules_conditional][version] = 1.0-beta2
 
@@ -451,7 +451,7 @@ projects[token][version] = 1.7
 
 projects[userone][version] = 1.0-beta1
 
-projects[uuid][version] = 1.0-beta2
+projects[uuid][version] = 1.0
 
 projects[variable][version] = 2.5
 
