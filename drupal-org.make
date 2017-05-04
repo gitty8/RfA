@@ -405,10 +405,7 @@ projects[s3fs][version] = 2.4
 
 projects[search_api][version] = 1.21
 
-projects[search_api_db][type] = module
-projects[search_api_db][download][type] = git
-projects[search_api_db][download][url] = https://git.drupal.org/project/search_api_db.git
-projects[search_api_db][download][revision] = ceb10d8d2e8934cd89019a222ce8c0c33fa1f094
+projects[search_api_db][version] = 1.6
 projects[search_api_db][patch][] = https://www.drupal.org/files/issues/2219897-25--facets_for_empty_results.patch
 
 projects[search_api_ranges][type] = module
