@@ -489,7 +489,7 @@ projects[votingapi][version] = 2.12
 
 projects[vvf][version] = 1.2
 
-projects[wysiwyg][version] = 2.3
+projects[wysiwyg][version] = 2.4
 
 projects[xautoload][version] = 5.7
 
