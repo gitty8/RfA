@@ -114,7 +114,7 @@ projects[commerce][patch][] = https://www.drupal.org/files/issues/commerce-delet
 projects[commerce][patch][] = https://www.drupal.org/files/issues/commerce-georgian_lari-2256853-6.patch
 projects[commerce][patch][] = https://www.drupal.org/files/issues/commerce-cart_product_add_php7-2762907-5.patch
 
-projects[commerce_addressbook] = 3.0-rc3
+projects[commerce_addressbook] = 3.0-rc4
 
 projects[commerce_authnet][version] = 1.4
 
@@ -188,12 +188,12 @@ projects[entity_translation][version] = 1.0-beta6
 
 projects[entity2text][version] = 1.0-alpha3
 
-projects[entityform][version] = 2.0-rc3
+projects[entityform][version] = 2.0-rc4
 
 projects[entityform_block][version] = 1.3
 projects[entityform_block][patch][] = https://www.drupal.org/files/issues/entityform_block-hook_entity_type_delete-exception-2487898-13.patch
 
-projects[entityreference][version] = 1.2
+projects[entityreference][version] = 1.3
 
 projects[entityreference_prepopulate][version] = 1.7
 
@@ -317,7 +317,7 @@ projects[masonry][version] = 3.0-beta1
 
 projects[masonry_views][version] = 3.0
 
-projects[media][version] = 2.0
+projects[media][version] = 2.1
 
 projects[menu_admin_per_menu][version] = 1.0
 projects[menu_admin_per_menu][patch][] = https://www.drupal.org/files/issues/integrate-menu-translation-suport-2546214-1.patch
